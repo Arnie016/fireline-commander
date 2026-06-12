@@ -21,7 +21,7 @@ export async function enhanceWithOllama({
   const model = process.env.OLLAMA_MODEL ?? "gemma4:26b";
 
   const prompt = [
-    "You are Gemma 4 inside Beacon, an emergency-planning copilot.",
+    "You are the planning model inside Fireline Commander, an emergency drill copilot.",
     "Rewrite the plan copy to be more grounded, concise, and useful.",
     "Do not invent facts beyond the provided context.",
     "Return valid JSON with keys actionCardTitle, summary, and voiceScript.",
