@@ -1,0 +1,341 @@
+[
+  {
+    "request": {
+      "scenario": "Fireline School",
+      "hazard": "fire",
+      "role": "teacher",
+      "condition": "blocked route vulnerable assistance smoke pickup gate"
+    },
+    "retrieval_query": {
+      "index": "drill_knowledge",
+      "query": "Fireline School fire teacher blocked route vulnerable assistance smoke pickup gate",
+      "filters": {
+        "scenario": "Fireline School",
+        "hazard": "fire",
+        "role": "teacher",
+        "condition": "blocked route vulnerable assistance smoke pickup gate"
+      }
+    },
+    "evidence_source": "Demo evidence",
+    "mcp_status": "local_demo_fallback",
+    "note": "Generated after Elastic Cloud trial expiry from the same JSON records intended for the drill_knowledge Elasticsearch index.",
+    "retrieved_guidance": {
+      "id": "fireline-school-teacher-blocked-route",
+      "scenario": "Fireline School",
+      "hazard": "fire",
+      "role": "teacher",
+      "condition": "blocked route with smoke near pickup gate and vulnerable students needing assistance",
+      "safe_action": "Move the class upwind through the covered walkway, keep the fire lane clear, assign support for vulnerable students, and confirm headcount at the assembly point.",
+      "checklist": [
+        "Scan smoke direction before moving.",
+        "Keep students together and away from the responder lane.",
+        "Assign one adult or buddy pair to each vulnerable student.",
+        "Take attendance at the upwind assembly point.",
+        "Wait for official all-clear before re-entry."
+      ],
+      "consequence": "Using the responder lane as a shortcut slows emergency access and can split the class; upwind movement preserves safety and accountability.",
+      "source": "Elastic-compatible demo knowledge pack: school fire drill route guidance",
+      "tags": [
+        "fire",
+        "school",
+        "teacher",
+        "blocked-route",
+        "vulnerable-assistance",
+        "upwind"
+      ],
+      "score": 20,
+      "matched_terms": [
+        "fireline",
+        "school",
+        "fire",
+        "teacher",
+        "blocked",
+        "route",
+        "vulnerable",
+        "assistance",
+        "smoke",
+        "pickup",
+        "gate"
+      ]
+    },
+    "recommended_action": "Move the class upwind through the covered walkway, keep the fire lane clear, assign support for vulnerable students, and confirm headcount at the assembly point.",
+    "checklist": [
+      "Scan smoke direction before moving.",
+      "Keep students together and away from the responder lane.",
+      "Assign one adult or buddy pair to each vulnerable student.",
+      "Take attendance at the upwind assembly point.",
+      "Wait for official all-clear before re-entry."
+    ],
+    "consequence": "Using the responder lane as a shortcut slows emergency access and can split the class; upwind movement preserves safety and accountability."
+  },
+  {
+    "request": {
+      "scenario": "Bay Household",
+      "hazard": "tsunami",
+      "role": "family lead",
+      "condition": "strong shaking elder pet inland high ground"
+    },
+    "retrieval_query": {
+      "index": "drill_knowledge",
+      "query": "Bay Household tsunami family lead strong shaking elder pet inland high ground",
+      "filters": {
+        "scenario": "Bay Household",
+        "hazard": "tsunami",
+        "role": "family lead",
+        "condition": "strong shaking elder pet inland high ground"
+      }
+    },
+    "evidence_source": "Demo evidence",
+    "mcp_status": "local_demo_fallback",
+    "note": "Generated after Elastic Cloud trial expiry from the same JSON records intended for the drill_knowledge Elasticsearch index.",
+    "retrieved_guidance": {
+      "id": "bay-household-family-lead-tsunami",
+      "scenario": "Bay Household",
+      "hazard": "tsunami",
+      "role": "family lead",
+      "condition": "strong shaking near the bay with elder assistance and pet control",
+      "safe_action": "Move inland or upward immediately, support the elder on the marked route, keep the pet controlled, and do not return to shore until an official all-clear.",
+      "checklist": [
+        "Treat strong shaking as a natural warning.",
+        "Move away from the shoreline without waiting for more certainty.",
+        "Use vertical evacuation only if inland movement is blocked.",
+        "Keep medication and phone with the elder.",
+        "Listen for official all-clear before returning."
+      ],
+      "consequence": "Waiting near the bay increases exposure to fast-arriving water; inland movement gives the household more time and options.",
+      "source": "Elastic-compatible demo knowledge pack: coastal household tsunami drill",
+      "tags": [
+        "tsunami",
+        "household",
+        "family",
+        "elder",
+        "pet",
+        "inland-route"
+      ],
+      "score": 19,
+      "matched_terms": [
+        "bay",
+        "household",
+        "tsunami",
+        "family",
+        "lead",
+        "strong",
+        "shaking",
+        "elder",
+        "pet",
+        "inland"
+      ]
+    },
+    "recommended_action": "Move inland or upward immediately, support the elder on the marked route, keep the pet controlled, and do not return to shore until an official all-clear.",
+    "checklist": [
+      "Treat strong shaking as a natural warning.",
+      "Move away from the shoreline without waiting for more certainty.",
+      "Use vertical evacuation only if inland movement is blocked.",
+      "Keep medication and phone with the elder.",
+      "Listen for official all-clear before returning."
+    ],
+    "consequence": "Waiting near the bay increases exposure to fast-arriving water; inland movement gives the household more time and options."
+  },
+  {
+    "request": {
+      "scenario": "Night Flood",
+      "hazard": "flood",
+      "role": "teacher",
+      "condition": "ground floor night rising moving water vertical shelter"
+    },
+    "retrieval_query": {
+      "index": "drill_knowledge",
+      "query": "Night Flood flood teacher ground floor night rising moving water vertical shelter",
+      "filters": {
+        "scenario": "Night Flood",
+        "hazard": "flood",
+        "role": "teacher",
+        "condition": "ground floor night rising moving water vertical shelter"
+      }
+    },
+    "evidence_source": "Demo evidence",
+    "mcp_status": "local_demo_fallback",
+    "note": "Generated after Elastic Cloud trial expiry from the same JSON records intended for the drill_knowledge Elasticsearch index.",
+    "retrieved_guidance": {
+      "id": "night-flood-ground-floor-vertical",
+      "scenario": "Night Flood",
+      "hazard": "flood",
+      "role": "teacher",
+      "condition": "ground-floor evacuation at night with rising moving water",
+      "safe_action": "Move people, medicine, chargers, and lights above flood level before water reaches the threshold; do not cross moving water.",
+      "checklist": [
+        "Move children and essentials to an upper floor or elevated safe area.",
+        "Keep shoes, flashlight, charger, and medicine together.",
+        "Avoid walking or driving through moving water.",
+        "Turn off power only if it is safe and dry to reach the switch.",
+        "Send a short status update before signal weakens."
+      ],
+      "consequence": "Crossing a flooded street after dark can trap people in moving water; vertical movement preserves safety while waiting for official guidance.",
+      "source": "Elastic-compatible demo knowledge pack: night flood vertical shelter guidance",
+      "tags": [
+        "flood",
+        "night",
+        "vertical-evacuation",
+        "moving-water",
+        "ground-floor"
+      ],
+      "score": 18,
+      "matched_terms": [
+        "night",
+        "flood",
+        "teacher",
+        "ground",
+        "floor",
+        "rising",
+        "moving",
+        "water",
+        "vertical"
+      ]
+    },
+    "recommended_action": "Move people, medicine, chargers, and lights above flood level before water reaches the threshold; do not cross moving water.",
+    "checklist": [
+      "Move children and essentials to an upper floor or elevated safe area.",
+      "Keep shoes, flashlight, charger, and medicine together.",
+      "Avoid walking or driving through moving water.",
+      "Turn off power only if it is safe and dry to reach the switch.",
+      "Send a short status update before signal weakens."
+    ],
+    "consequence": "Crossing a flooded street after dark can trap people in moving water; vertical movement preserves safety while waiting for official guidance."
+  },
+  {
+    "request": {
+      "scenario": "School Typhoon",
+      "hazard": "typhoon",
+      "role": "school safety lead",
+      "condition": "parent pickup wind warning covered gate accountability"
+    },
+    "retrieval_query": {
+      "index": "drill_knowledge",
+      "query": "School Typhoon typhoon school safety lead parent pickup wind warning covered gate accountability",
+      "filters": {
+        "scenario": "School Typhoon",
+        "hazard": "typhoon",
+        "role": "school safety lead",
+        "condition": "parent pickup wind warning covered gate accountability"
+      }
+    },
+    "evidence_source": "Demo evidence",
+    "mcp_status": "local_demo_fallback",
+    "note": "Generated after Elastic Cloud trial expiry from the same JSON records intended for the drill_knowledge Elasticsearch index.",
+    "retrieved_guidance": {
+      "id": "school-typhoon-parent-gate",
+      "scenario": "School Typhoon",
+      "hazard": "typhoon",
+      "role": "school safety lead",
+      "condition": "parent pickup pressure while wind warning is active",
+      "safe_action": "Keep students inside assigned rooms, use controlled covered-gate pickup only when safe, maintain class rosters, and keep emergency access clear.",
+      "checklist": [
+        "Hold classes in assigned indoor rooms during peak wind.",
+        "Release only through a covered controlled pickup point.",
+        "Confirm guardian identity before reunification.",
+        "Keep vehicle and emergency access lanes clear.",
+        "Send one concise parent update with timing and gate instructions."
+      ],
+      "consequence": "Opening all gates may look faster but weakens accountability and exposes students to wind-driven debris.",
+      "source": "Elastic-compatible demo knowledge pack: typhoon school reunification guidance",
+      "tags": [
+        "typhoon",
+        "school",
+        "pickup",
+        "reunification",
+        "accountability",
+        "covered-route"
+      ],
+      "score": 20,
+      "matched_terms": [
+        "school",
+        "typhoon",
+        "safety",
+        "lead",
+        "parent",
+        "pickup",
+        "wind",
+        "warning",
+        "covered",
+        "gate",
+        "accountability"
+      ]
+    },
+    "recommended_action": "Keep students inside assigned rooms, use controlled covered-gate pickup only when safe, maintain class rosters, and keep emergency access clear.",
+    "checklist": [
+      "Hold classes in assigned indoor rooms during peak wind.",
+      "Release only through a covered controlled pickup point.",
+      "Confirm guardian identity before reunification.",
+      "Keep vehicle and emergency access lanes clear.",
+      "Send one concise parent update with timing and gate instructions."
+    ],
+    "consequence": "Opening all gates may look faster but weakens accountability and exposes students to wind-driven debris."
+  },
+  {
+    "request": {
+      "scenario": "Clinic Heat",
+      "hazard": "heatwave",
+      "role": "clinic lead",
+      "condition": "heat index cooling triage vulnerable medicine"
+    },
+    "retrieval_query": {
+      "index": "drill_knowledge",
+      "query": "Clinic Heat heatwave clinic lead heat index cooling triage vulnerable medicine",
+      "filters": {
+        "scenario": "Clinic Heat",
+        "hazard": "heatwave",
+        "role": "clinic lead",
+        "condition": "heat index cooling triage vulnerable medicine"
+      }
+    },
+    "evidence_source": "Demo evidence",
+    "mcp_status": "local_demo_fallback",
+    "note": "Generated after Elastic Cloud trial expiry from the same JSON records intended for the drill_knowledge Elasticsearch index.",
+    "retrieved_guidance": {
+      "id": "clinic-heat-cooling-triage",
+      "scenario": "Clinic Heat",
+      "hazard": "heatwave",
+      "role": "clinic lead",
+      "condition": "heat index alert with vulnerable students or patients and unstable cooling",
+      "safe_action": "Move vulnerable people to the coolest reachable room, start water and symptom checks, protect temperature-sensitive medicines, and escalate confusion or fainting immediately.",
+      "checklist": [
+        "Prioritize elders, children, and people with chronic conditions.",
+        "Route people to the coolest shaded or ventilated room.",
+        "Check for confusion, fainting, hot skin, or worsening symptoms.",
+        "Protect insulin and temperature-sensitive medicines.",
+        "Prepare transport escalation for severe heat illness signs."
+      ],
+      "consequence": "Waiting until people ask for help delays heat response; early cooling and repeated checks reduce escalation risk.",
+      "source": "Elastic-compatible demo knowledge pack: clinic heat triage guidance",
+      "tags": [
+        "heatwave",
+        "clinic",
+        "triage",
+        "cooling",
+        "medicine",
+        "vulnerable"
+      ],
+      "score": 18,
+      "matched_terms": [
+        "clinic",
+        "heat",
+        "heatwave",
+        "lead",
+        "index",
+        "cooling",
+        "triage",
+        "vulnerable",
+        "medicine"
+      ]
+    },
+    "recommended_action": "Move vulnerable people to the coolest reachable room, start water and symptom checks, protect temperature-sensitive medicines, and escalate confusion or fainting immediately.",
+    "checklist": [
+      "Prioritize elders, children, and people with chronic conditions.",
+      "Route people to the coolest shaded or ventilated room.",
+      "Check for confusion, fainting, hot skin, or worsening symptoms.",
+      "Protect insulin and temperature-sensitive medicines.",
+      "Prepare transport escalation for severe heat illness signs."
+    ],
+    "consequence": "Waiting until people ask for help delays heat response; early cooling and repeated checks reduce escalation risk."
+  }
+]

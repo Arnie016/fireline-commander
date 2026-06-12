@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-06-12T15:32:55.943Z",
+  "repository": "https://github.com/Arnie016/fireline-commander",
+  "mode": "post-submission archive",
+  "elastic_status": "Hosted retrieval unavailable; bundle preserves reviewable demo evidence without claiming live access.",
+  "files": {
+    "knowledge_snapshot": "demo-evidence/drill_knowledge.snapshot.json",
+    "retrievals": "demo-evidence/retrievals.json",
+    "report": "demo-evidence/retrieval-report.md"
+  },
+  "scenarios": 5,
+  "records": 6
+}
